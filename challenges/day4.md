@@ -21,7 +21,7 @@
   * start:  ['b', '.', 'b', '.', '.']
   * finish: ['.', '.', '.', 'b', 'b']
  
- 4. pull_blues_left - [solution](/challenges/solutions/pull_blues_left.js)
+4. pull_blues_left - [solution](/challenges/solutions/pull_blues_left.js)
  
   * start:  [ '.', 'b', 'b', '.', 'b' ]
   * finish: [ 'b', 'b', 'b', '.', '.' ]
