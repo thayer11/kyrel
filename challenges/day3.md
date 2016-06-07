@@ -1,19 +1,37 @@
-## ADVANCED LOOPS & CONDITIONALS
+## BASIC FOR LOOPS & CONDITIONALS
 
-1. bleed_right - [solution](/challenges/solutions/bleed_right.js)
+1. all_blue - [solution](/challenges/solutions/all_blue.js)
 
-  * start:  ['.', '.', 'b', '.', '.']
-  * finish: ['.', '.', 'b', 'b', 'b']
+  * start:  ['.', '.', '.', '.', '.']
+  * finish: ['b', 'b', 'b', 'b', 'b']
 
-2. invert_colors - [solution](/challenges/solutions/invert_colors.js)
+2. all_first_color - [solution](/challenges/solutions/all_first_color.js)
 
-  * start:  ['b', 'g', 'g', 'b', 'b']
-  * finish: ['g', 'b', 'b', 'g', 'g']
+  * start:  ['b', '.', '.', '.', '.']
+  * finish: ['b', 'b', 'b', 'b', 'b']
 
-  * start:  ['b', '.', 'g', '.', 'b']
-  * finish: ['g', '.', 'b', '.', 'g']
+  * start:  ['g', '.', '.', '.', '.']
+  * finish: ['g', 'g', 'g', 'g', 'g']
 
-3. reverse_row - [solution](/challenges/solutions/reverse_row.js)
+3. n_in_a_row - [solution](/challenges/solutions/n_in_a_row.js)
 
-  * start:  ['b', 'g', 'g', '.', 'g']
-  * finish: ['g', '.', 'g', 'g', 'b']
+  * start:  ['.', '.', '.', '.', '.']
+  * finish: ['b', 'b', '.', '.', '.']  \(given n is 2)
+  * finish: ['b', 'b', 'b', '.', '.']  \(given n is 3)
+
+4. every_even_erase - [solution](/challenges/solutions/every_even_erase.js)
+
+  * start:  ['b', 'b', 'b', 'b', 'b']
+  * finish: ['.', 'b', '.', 'b', '.']
+  
+5. every_odd_erase - [solution](/challenges/solutions/every_odd_erase.js)
+
+  * start:  ['b', 'b', 'b', 'b', 'b']
+  * finish: ['b', '.', 'b', '.', 'b']
+  
+6. every_n_erase - [solution](/challenges/solutions/every_n_erase.js)
+
+  * start:  ['b', 'b', 'b', 'b', 'b']
+  * finish: ['.', '.', '.', '.', '.'] // (given n is 1)
+  * finish: ['b', '.', 'b', '.', 'b'] // (given n is 2)
+  * finish: ['b', 'b', 'b', 'b', '.'] // (given n is 5)
