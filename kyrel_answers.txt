@@ -1,0 +1,36 @@
+1.var initial_state = ['.', '.', '.', '.', '.'];function main(n) {draw();moveRight();draw ();moveRight();draw();moveRight();draw();moveRight();draw();2.var initial_state = ['b', '.', '.', '.', '.'];function main(n) {  (var i=0; i<5; i++) {      if (on blue()){        useblue()      }      if (on green()) {        useGreen();      }3.var initial_state = [ '.', '.', '.', '.', '.' ];function main(n) {  var n = 3; // make sure this can change!useGreen();for(var i=0; i<n; i++) {  draw();  moveRight();}4.
+
+initial_state =  ['b', 'b', 'b', 'b', 'b'];
+
+function main(n){
+
+for(var i=0; i<5; i++){
+    if ( i%2 === 0 ){
+        erase();
+    }
+    moveRight();
+}5.
+
+initial_state =  ['b', 'b', 'b', 'b', 'b'];
+
+function main(n){
+
+for(var i=0; i<5; i++){
+    if ( i%2 !== 0 ){
+        erase();
+    }
+    moveRight();
+}6. var initial_state = [ 'b', 'b', 'b', 'b', 'b' ];
+
+function main(n){ 
+
+
+n = 2; // this can change
+
+for(var i=0; i<5; i++){
+    if ( (i+1)%n === 0 ){
+        erase();
+    }
+    moveRight();
+}
+}
