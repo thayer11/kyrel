@@ -34,3 +34,82 @@ for(var i=0; i<5; i++){
     moveRight();
 }
 }
+
+7.function main(n){ 
+
+
+for (var i = 0; i<5; i++)
+
+if (onBlue()){
+  useBlue();
+  moveRight();
+}
+ else if (onGreen()){
+  useGreen();
+  moveRight();
+ }
+else {
+  draw();
+  moveRight();
+}
+}
+8.
+var initial_state = ['g', 'b', 'b', '.', '.'];
+//finish: ['.', '.', 'b', 'b', 'b'];
+
+function main(n){ 
+
+
+for (var i = 0; i<5; i++)
+
+if (onBlue()){
+  useGreen();
+  draw();
+}
+
+ else if (onGreen()){
+  useBlue();
+  draw();
+ }
+else {
+}
+moveRight();
+}
+
+9.
+
+var initial_state = ['b', 'g', 'g', '.', '.'];
+//finish: ['.', '.', 'b', 'b', 'b'];
+
+function main(n){ 
+
+var newArray = []
+for (var i = 0; i<initial.length; i++)
+
+if (onBlue()){
+  newArray[i]="b";
+}
+
+ else if (onGreen()){
+  newArray[i]="g";
+ }
+else { 
+  newArray[i]="."
+}
+moveRight();
+}
+for (var i = 0; i<initial.length; i++)
+
+if (newArray[i]==="b"){
+  useBlue();
+  draw();
+}
+else if (newArray[i]==="g"){
+  useGreen();
+  draw();
+}
+else {
+  erase();
+}
+moveLeft();
+}
