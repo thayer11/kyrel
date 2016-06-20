@@ -1,4 +1,49 @@
-1.var initial_state = ['.', '.', '.', '.', '.'];function main(n) {draw();moveRight();draw ();moveRight();draw();moveRight();draw();moveRight();draw();2.var initial_state = ['b', '.', '.', '.', '.'];function main(n) {  (var i=0; i<5; i++) {      if (on blue()){        useblue()      }      if (on green()) {        useGreen();      }3.var initial_state = [ '.', '.', '.', '.', '.' ];function main(n) {  var n = 3; // make sure this can change!useGreen();for(var i=0; i<n; i++) {  draw();  moveRight();}4.
+1.
+
+var initial_state = ['.', '.', '.', '.', '.'];
+
+function main(n) {
+
+draw();
+moveRight();
+draw ();
+moveRight();
+draw();
+moveRight();
+draw();
+moveRight();
+draw();
+
+2.
+
+var initial_state = ['b', '.', '.', '.', '.'];
+
+function main(n) {
+  (var i=0; i<5; i++) {
+
+
+      if (on blue()){
+        useblue()
+      }
+      if (on green()) {
+        useGreen();
+      }
+
+3.
+
+var initial_state = [ '.', '.', '.', '.', '.' ];
+
+function main(n) {
+
+  var n = 3; // make sure this can change!
+
+useGreen();
+for(var i=0; i<n; i++) {
+  draw();
+  moveRight();
+}
+
+4.
 
 initial_state =  ['b', 'b', 'b', 'b', 'b'];
 
@@ -9,7 +54,9 @@ for(var i=0; i<5; i++){
         erase();
     }
     moveRight();
-}5.
+}
+
+5.
 
 initial_state =  ['b', 'b', 'b', 'b', 'b'];
 
@@ -20,7 +67,10 @@ for(var i=0; i<5; i++){
         erase();
     }
     moveRight();
-}6. var initial_state = [ 'b', 'b', 'b', 'b', 'b' ];
+}
+
+6. 
+var initial_state = [ 'b', 'b', 'b', 'b', 'b' ];
 
 function main(n){ 
 
@@ -113,3 +163,36 @@ else {
 }
 moveLeft();
 }
+
+10. 
+
+var initial_state = ['b', 'b', 'b', 'b', 'b'];
+
+function main(n){
+
+  for(var j=0; j<5; j++) {
+  if( onBlue() ) {
+    erase();
+    moveRight();
+    useBlue();
+    draw();
+  }
+
+  moveRight();
+}
+ } 
+
+11.
+
+var initial_state = [ 'g', 'b', '.', '.', '.' ];
+
+function main(n){
+for(var j=0; j<5; j++) {
+  if ( onBlue() ) {
+    moveLeft();
+    erase();
+    moveRight();
+  }
+  moveRight();
+}
+Status API Training Shop Blog About

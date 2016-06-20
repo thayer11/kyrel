@@ -19,46 +19,30 @@ var row, colors, kyrel, return_value, rando;
     'g' => green
 */
 
-var initial_state = ['b', 'g', 'g', '.', '.'];
-//finish: ['.', '.', 'b', 'b', 'b'];
 
-function main(n){ 
+/*move_the_blue_dot_one_to_the_right - solution */
 
-var newArray = []
-for (var i = 0; i<initial.length; i++)
+var initial_state = ['b', 'b', 'b', 'b', 'b'];
+/*finish: ['.', '.', '.', 'b', '.']
 
-if (onBlue()){
-  newArray[i]="b";
-}
+start: ['g', 'b', '.', '.', 'g']
 
- else if (onGreen()){
-  newArray[i]="g";
- }
-else { 
-  newArray[i]="."
-}
-moveRight();
-}
-for (var i = 0; i<initial.length; i++)
+finish: ['g', '.', 'b', '.', 'g']
+*/
 
-if (newArray[i]==="b"){
-  useBlue();
-  draw();
-}
-else if (newArray[i]==="g"){
-  useGreen();
-  draw();
-}
-else {
-  erase();
-}
-moveLeft();
-}
-//finish: ['.', '.', '.', '.', '.'] // (given n is 1)
-//finish: ['b', '.', 'b', '.', 'b'] // (given n is 2)
-//finish: ['b', 'b', 'b', 'b', '.'] // (given n is 5)
+function main(n){
 
-  //////////////////////////////////
+  for(var j=0; j<5; j++) {
+  if( onBlue() ) {
+    erase();
+    moveRight();
+    useBlue();
+    draw();
+  }
+
+  moveRight();
+}
+ }   //////////////////////////////////
   ////                          ////
   //// v YOUR CODE BELOW HERE v ////
   ////                          ////
